@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-
+Download broadcast ephemeris data for 1 year.
 get list of stations 
 wget ftp://geodesy.noaa.gov/cors/rinex/2010/365/ -q -O - | grep Directory | awk '{split($0,a,">"); split(a[2],b,"/");print b[1]}' >> cors.list
 """
